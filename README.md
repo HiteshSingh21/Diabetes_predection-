@@ -1,15 +1,15 @@
 # Diabetes_predection-
 A diabetes dataset analysis to derive insightful information and patterns that helps in prediction of diabetes .
 
-# 🩺 Diabetes Prediction using Machine Learning
+# Diabetes Prediction using Machine Learning
 
 This repository contains a machine learning project focused on predicting whether a person has diabetes based on diagnostic measurements. The model is built using Python and popular machine learning libraries such as `pandas`, `scikit-learn`, and `matplotlib`.
 
-## 📊 Problem Statement
+## Problem Statement
 
 The goal is to predict the onset of diabetes in patients using medical records that include attributes like glucose level, insulin level, BMI, age, etc. This binary classification task helps in early diagnosis and potential treatment.
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 
@@ -21,7 +21,7 @@ Diabetes\_predection-/
 
 ````
 
-## 🧠 Features Used
+## Features Used
 
 The dataset typically includes:
 - Pregnancies
@@ -33,7 +33,7 @@ The dataset typically includes:
 - DiabetesPedigreeFunction
 - Age
 
-## 📌 Model Building Steps
+## Model Building Steps
 
 1. **Data Cleaning & Preprocessing**
    - Handling missing or zero values
@@ -51,7 +51,7 @@ The dataset typically includes:
    - Accuracy, Precision, Recall, F1-score
    - Confusion matrix and ROC-AUC
 
-## 🚀 How to Run the Project
+## How to Run the Project
 
 ### 1. Clone the repository
 
@@ -81,13 +81,13 @@ Open the Jupyter Notebook to explore data and train models:
 jupyter notebook Diabetes_Prediction.ipynb
 ```
 
-## ✅ Results
+## Results
 
 * Best model: Random Forest Classifier (Accuracy: \~85%)
 * Feature Importance and ROC Curve visualized
 * Model tested with different user inputs
 
-## 📦 Requirements
+## Requirements
 
 The project requires the following Python libraries:
 
@@ -102,18 +102,18 @@ jupyter
 
 These are included in the `requirements.txt` file.
 
-## 📉 Sample Output (Visualization)
+## Sample Output (Visualization)
 
 * Confusion Matrix
 * Feature Correlation Heatmap
 * ROC Curve for Classifiers
 
-## 📌 Future Improvements
+## Future Improvements
 
 * Add more datasets for better generalization
 * Deploy model using Flask or Streamlit
 * Create a web interface for predictions
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request.
